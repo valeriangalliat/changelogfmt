@@ -58,3 +58,21 @@ But my favorite way is from inside Vim, while editing the changelog file:
 ```
 :%!changelogfmt
 ```
+
+## Development
+
+```sh
+# Lint the code.
+npm run lint
+```
+
+## Possible improvements
+
+Pull requests are welcome!
+
+* Add tests.
+* Support something like `changelogfmt -w CHANGELOG.md` to read and
+  write from the given file.
+* Automatically fetch version dates from Git tags if missing (or
+  validate existing ones too).
+* Add missing version entries based on Git tags.
