@@ -1,6 +1,6 @@
 {
   "name": "changelogfmt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Formats the reference links of Keep a Changelog style files.",
   "homepage": "https://github.com/valeriangalliat/changelogfmt",
   "bugs": "https://github.com/valeriangalliat/changelogfmtn/issues",
@@ -9,6 +9,7 @@
     "name": "Val",
     "url": "https://val.codejam.info/"
   },
+  "bin": "changelogfmt",
   "repository": {
     "type": "git",
     "url": "https://github.com/valeriangalliat/changelogfmt.git"
