@@ -67,7 +67,6 @@ npm run lint
 
 Pull requests are welcome!
 
-* Add tests.
 * Support something like `changelogfmt -w CHANGELOG.md` to read and
   write from the given file.
 * Automatically fetch version dates from Git tags if missing (or

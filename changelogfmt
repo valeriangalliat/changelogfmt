@@ -70,7 +70,7 @@ rl.on('close', async () => {
   }
 
   // No references previously, add space.
-  if (Object.values(references).every(reference => !reference)) {
+  if (Object.values(references).length && Object.values(references).every(reference => !reference)) {
     console.log()
   }
 

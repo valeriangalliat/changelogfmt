@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+PATH=$PWD/..:$PATH
+
+for test in init; do
+    (cd "$test" && changelogfmt < input.md) | git diff --no-index - "$test/expected.md"
+done

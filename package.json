@@ -15,7 +15,8 @@
     "url": "https://github.com/valeriangalliat/changelogfmt.git"
   },
   "scripts": {
-    "lint": "standard changelogfmt"
+    "lint": "standard changelogfmt",
+    "test": "cd test && ./test"
   },
   "dependencies": {
     "infer-repo-url": "^0.1.0"

@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 * Infer repo URL from `package.json` or `.git/config` if it can't be
   found from existing references.
 * Support autolinking repos references like `foo/bar#42`.
+* Add tests.
 
 ## [1.0.1] - 2021-06-15
 * Add `bin` in `package.json` for this to be added to `PATH`.
