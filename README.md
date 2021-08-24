@@ -21,9 +21,6 @@ has the proper GitHub compare URL (or adds it otherwise), identifies all
 `#` links to add the issue or PR link reference for all the missing
 ones, and outputs the new version to stdout.
 
-**Sidenote:** ironically, this project doesn't have a changelog (yet).
-I'll add one if I ever make changes to it.
-
 ## Installation
 
 ```sh
