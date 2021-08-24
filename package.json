@@ -17,6 +17,9 @@
   "scripts": {
     "lint": "standard changelogfmt"
   },
+  "dependencies": {
+    "infer-repo-url": "^0.1.0"
+  },
   "devDependencies": {
     "standard": "^16.0.3"
   }
