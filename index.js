@@ -3,6 +3,13 @@ const https = require('https')
 const split2 = require('split2')
 const inferRepoUrl = require('infer-repo-url')
 
+function compareReferences (a, b) {
+  const [aRepo, aNumber] = a.split('#')
+  const [bRepo, bNumber] = b.split('#')
+
+  return aRepo.localeCompare(bRepo) || (aNumber - bNumber)
+}
+
 function * printVersions (repoUrl, versions) {
   for (let i = 0; i < versions.length - 1; i++) {
     const target = versions[i] === 'Unreleased' ? 'HEAD' : `v${versions[i]}`
@@ -74,7 +81,7 @@ async function * formatChangelogImpl (source) {
     yield '\n'
   }
 
-  for (let [reference, link] of Object.entries(references)) {
+  for (let [reference, link] of Object.entries(references).sort(([a], [b]) => compareReferences(a, b))) {
     if (link) {
       // Reference was already there, print as is.
       yield `[${reference}]: ${link}\n`
