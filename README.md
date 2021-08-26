@@ -36,21 +36,23 @@ export PATH=$PWD/changelogfmt:$PATH
 
 ## Usage
 
-```sh
-changelogfmt < CHANGELOG.md > CHANGELOG.md.new
-mv CHANGELOG.md.new CHANGELOG.md
-```
-
-Note that we can't directly write to the same file while reading from
-it, hence the temporary file.
-
-Alternatively, you can use moreutils' [**sponge**(1)](https://manpages.debian.org/testing/moreutils/sponge.1.en.html):
+Format given file, `stdin` or `CHANGELOG.md` otherwise, and print it to
+`stdout`:
 
 ```sh
-changelogfmt < CHANGELOG.md | sponge CHANGELOG.md
+changelogfmt whatever.md
+changelogfmt < whatever.md
+changelogfmt
 ```
 
-But my favorite way is from inside Vim, while editing the changelog file:
+Format given file or `CHANGELOG.md` otherwise, and overwrite it:
+
+```sh
+changelogfmt --write whatever.md
+changelogfmt --write
+```
+
+My favorite way is from inside Vim, while editing the changelog file:
 
 ```
 :%!changelogfmt
