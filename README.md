@@ -27,13 +27,6 @@ ones, and outputs the new version to stdout.
 npm install -g changelogfmt
 ```
 
-Or without npm, as long as you have Node.js:
-
-```sh
-git clone https://github.com/valeriangalliat/changelogfmt.git
-export PATH=$PWD/changelogfmt:$PATH
-```
-
 ## Usage
 
 Format given file, `stdin` or `CHANGELOG.md` otherwise, and print it to
@@ -69,8 +62,6 @@ npm run lint
 
 Pull requests are welcome!
 
-* Support something like `changelogfmt -w CHANGELOG.md` to read and
-  write from the given file.
 * Automatically fetch version dates from Git tags if missing (or
   validate existing ones too).
 * Add missing version entries based on Git tags.
