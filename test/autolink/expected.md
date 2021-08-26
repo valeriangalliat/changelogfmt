@@ -6,17 +6,26 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [2.0.0] - 2021-08-24
-* Test new version.
-* With autolink. ([#42])
+## [3.0.0] - 2021-08-26
+* Test new version. [npm/npm#1338])
+* With autolink. ([nodejs/node#42])
 * And even external autolink. ([npm/npm#1337])
+
+## [2.0.0] - 2021-08-25
+* Not sorted. ([#2], [#169])
+* With existing links. ([#1])
 
 ## [1.0.0] - 2021-08-24
 * Initial release.
 
-[Unreleased]: https://github.com/nodejs/node/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/nodejs/node/compare/v3.0.0...HEAD
+[3.0.0]: https://github.com/nodejs/node/compare/v2.0.0...v3.0.0
 [2.0.0]: https://github.com/nodejs/node/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/nodejs/node/tree/v1.0.0
 
-[#42]: https://github.com/nodejs/node/pull/42
+[#1]: this/is/not/touched/either
+[#2]: this/is/not/touched
+[#169]: hello
+[nodejs/node#42]: https://github.com/nodejs/node/pull/42
 [npm/npm#1337]: https://github.com/npm/npm/issues/1337
+[npm/npm#1338]: https://github.com/npm/npm/issues/1338
