@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.1.0] - 2021-09-15
+* Support referencing commits.
+
 ## [2.0.0] - 2021-08-26
 * Sort external references.
 * Fix tests.
