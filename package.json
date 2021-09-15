@@ -1,6 +1,6 @@
 {
   "name": "changelogfmt",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Formats the reference links of Keep a Changelog style files.",
   "license": "Unlicense",
   "author": "Val (https://val.codejam.info)",
