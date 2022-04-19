@@ -19,7 +19,7 @@ introduce **changelogfmt**.
 This tool takes your changelog as stdin, makes sure that each version
 has the proper GitHub compare URL (or adds it otherwise), identifies all
 `#` links to add the issue or PR link reference for all the missing
-ones, and outputs the new version to stdout.
+ones, and outputs the new version to `stdout`.
 
 ## Installation
 
