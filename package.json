@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "docopt": "^0.6.2",
+    "hosted-git-info": "^5.0.0",
     "infer-repo-url": "^0.1.0",
     "node-fetch": "^2.6.2",
     "split2": "^3.2.2",

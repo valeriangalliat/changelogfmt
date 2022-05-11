@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.2.0] - 2022-05-11
+* `changelogfmt init` now gets data from Git tags!
+
 ## [2.1.0] - 2021-09-15
 * Support referencing commits.
 
